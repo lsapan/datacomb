@@ -1,0 +1,1 @@
+module.exports = "{{#partial point}}\n  <circle r=3\n          cx={{xScale(xAccessor(this))}}\n          cy={{yScale(yAccessor(this))}} />\n{{/partial}}\n\n<svg width={{width}} height={{height}}>\n  <g class='data-layer' transform='translate({{pad.left}},{{pad.top}})'>\n    {{#points}}\n      {{>point}}\n    {{/points}}\n  </g>\n</svg>\n";
