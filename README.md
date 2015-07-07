@@ -13,7 +13,7 @@ var DataComb = require('./datacomb');
 var myComb = new DataComb({
     el: document.querySelector('#data-comb'),
     data: {
-        labelAccessor: 'nppes_provider_last_org_name',
+        labelAccessor: 'xxx',
         labelWidth: '16%',
         colDefs: cols,
         dataset: data
